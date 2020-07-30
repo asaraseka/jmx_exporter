@@ -172,7 +172,7 @@ class JmxScraper {
                 );
             }
         } catch (ClassCastException e) {
-            System.out.println(attributes.asList());
+             System.out.println("Skip error");
         }
     }
 
